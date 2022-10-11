@@ -1,0 +1,19 @@
+.contenido_view{
+    height: 100vh;
+
+    *{
+        font-family: 'Poppins', sans-serif;
+    }
+    .contenedor{
+        background: #fff;
+        border-radius: 6px;
+        padding: 50px 30px;
+        h1{
+            font-size: 25px;
+        }
+        a{
+            text-decoration: none;
+            float: right;
+        }
+    }
+}

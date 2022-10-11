@@ -1,0 +1,75 @@
+body{
+    @media screen and (max-width: 575px){
+        background: #fff!important;
+    }
+}
+
+.registro_vista{
+    *{
+        font-family: 'Roboto', sans-serif;
+    }
+    .re{
+        height: 100vh!important;
+
+        img{
+            display: block;
+            margin: auto;
+            width: 100%;
+            height: 100%;
+
+            @media screen and (max-width: 575px){
+                width: 100%;
+            }
+        }
+        .formulario{
+            background: #fff;
+            padding: 60px 60px;
+
+            h4,p{
+                padding: 0;
+                margin:0;
+            }
+            p{
+                font-size: 15px;
+            }
+
+            form{
+                margin-bottom: 10px;
+                label{
+                    color: #4A5568;
+                    font-size: 14px;
+                }
+                input{
+                    margin-bottom: 10px;
+                }
+                input[type=submit]{
+                    width: 100%;
+                    margin-top: 25px;
+                    padding: 5px 0px;
+                    background: #04C35C;
+                    border: 1px solid #04C35C;
+                    border-radius: 5px;
+                    color: #fff;
+                    cursor: pointer;
+                    transition: all 250ms;
+                    
+                    &:hover{
+                        background: #03a54f;
+                        border: 1px solid #03a54f;
+                    }
+                }
+                .error{
+                    background: #f2dede;
+                    border: 1px solid #a94442;
+                    border-radius: 2px;
+                    color: #a94442;
+                    padding: 8px;
+                    font-size: 13px;
+                }
+            }
+            a{
+                text-decoration: none;
+            }
+        }
+    }
+}
